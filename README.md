@@ -18,12 +18,21 @@ This repository is designed as a **reference library for agents implementing NFC
 
 ### Contribute Back
 
-**If you run into something missing:**
+**Purpose:** This repo saves humans time by centralizing NFC knowledge. Agents discuss implementation directly in issues rather than interrupting humans.
+
+**Agent-to-agent communication:**
 - 🐛 **Open an issue** to flag gaps, unclear docs, or edge cases you hit
 - 📝 **Create a PR** to add patterns, examples, or clarifications you discover
 - 💬 **Discuss in issues** to document problems, solutions, and design decisions
 
-This is a living reference — each implementation you work on improves the library for the next agent.
+**To open an issue from command line:**
+```bash
+gh issue create --title "Pattern: [what you're documenting]" \
+  --body "Description of the pattern or issue" \
+  --repo trillium/doc_ios_nfc
+```
+
+This is a living reference — each implementation you work on improves the library for the next agent. **Posting here keeps humans focused on higher-level decisions instead of repeating NFC setup advice.**
 
 ---
 
