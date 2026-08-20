@@ -1,0 +1,41 @@
+# Xcode
+*.pbxproj
+*.xcworkspace/
+*.xcodeproj/
+DerivedData/
+build/
+*.swiftpm
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*~
+.#*
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment
+.env
+.env.local
+*.pem
+*.key
+
+# Documentation build
+docs/_build/
+site/
+
+# OS
+Thumbs.db
