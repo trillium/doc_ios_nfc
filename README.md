@@ -1,27 +1,37 @@
 <details>
-<summary><strong>👥 FOR AGENTS: iOS NFC Quick Reference</strong></summary>
+<summary><strong>👥 FOR AGENTS: iOS NFC Reference Library</strong></summary>
 
-**PURPOSE:** Save humans time by centralizing NFC knowledge. Agents discuss implementations in issues, not with humans.
+## Purpose
 
-### 📋 QUICK START
+This repository **centralizes NFC knowledge for agents building iOS features**. Instead of hunting docs or repeating setup, you get:
 
-1. **Implementing?** → [Getting Started](./docs/GETTING_STARTED.md)
-2. **Need examples?** → [Code Examples](./docs/CODE_EXAMPLES.md)
-3. **API reference?** → [Technical](./docs/TECHNICAL.md)
-4. **Problem solving?** → [Troubleshooting](./docs/TROUBLESHOOTING.md)
-5. **Testing URLs?** → [Universal Links & Testing](./docs/UNIVERSAL_LINKS_TESTING.md)
+- ✓ Step-by-step setup guide (Xcode → working code in 15 min)
+- ✓ 10 copy-paste code patterns for common scenarios
+- ✓ Complete API reference with iOS version matrix
+- ✓ Troubleshooting guide (symptom → solution)
+- ✓ Critical gotchas (7 ways URLs silently fail, Type 5 reliability, etc.)
+- ✓ Official sources cited (Apple docs, NFC Forum specs, RFCs)
 
-### 🔗 CONTRIBUTE & COMMUNICATE
+**Goal:** Save humans time by letting agents solve NFC problems with agents via GitHub issues, not by interrupting humans.
 
-Open an issue for agent-to-agent discussion:
+## How to Use This Repo
 
-```bash
-gh issue create --title "Pattern: [what]" \
-  --body "Description of the pattern or issue" \
-  --repo trillium/doc_ios_nfc
-```
+**You're starting a new NFC feature:**
+1. [GETTING_STARTED.md](./docs/GETTING_STARTED.md) — Xcode setup + first working code (15 min)
+2. [CODE_EXAMPLES.md](./docs/CODE_EXAMPLES.md) — Find your pattern, copy-paste, adapt
+3. [TECHNICAL.md](./docs/TECHNICAL.md) — Reference when you need API details
 
-Each implementation improves the library. **Posting findings here keeps humans focused on higher-level decisions instead of repeating NFC setup advice.**
+**You're stuck on a problem:**
+1. [TROUBLESHOOTING.md](./docs/TROUBLESHOOTING.md) — Search by symptom
+2. Open GitHub issue if not listed — describe what you tried
+3. Check existing issues — someone may have solved it
+
+**You discovered a pattern others should know:**
+1. Open a GitHub issue: `gh issue create --title "Pattern: [what]" --body "Description" --repo trillium/doc_ios_nfc`
+2. Describe: Use case, how you solved it, why it matters
+3. Submit PR with addition to [CODE_EXAMPLES.md](./docs/CODE_EXAMPLES.md)
+
+**For full guidance:** See [MANIFEST.md](./MANIFEST.md)
 
 </details>
 
@@ -33,14 +43,17 @@ Comprehensive technical documentation for implementing NFC tag reading and writi
 
 ## Documentation Contents
 
+### For Agents
+- [MANIFEST.md](./MANIFEST.md) — **Start here** — What's in the repo and how to use it
+
 ### Reference Guides
-- [Complete Technical Writeup](./docs/TECHNICAL.md) — Full specification and reference
-- [Getting Started Guide](./docs/GETTING_STARTED.md) — Step-by-step setup
-- [Code Examples](./docs/CODE_EXAMPLES.md) — Practical implementation patterns
+- [Getting Started Guide](./docs/GETTING_STARTED.md) — Step-by-step Xcode setup (15 min)
+- [Code Examples](./docs/CODE_EXAMPLES.md) — 10 copy-paste patterns for common scenarios
+- [Complete Technical Writeup](./docs/TECHNICAL.md) — Full API specification and reference
+- [Troubleshooting](./docs/TROUBLESHOOTING.md) — Problem → solution guide
+- [Universal Links & Testing](./docs/UNIVERSAL_LINKS_TESTING.md) — URL routing gotchas and validation
 - [iOS 26 Updates](./docs/IOS_26_CHANGES.md) — Latest features and changes
-- [Troubleshooting](./docs/TROUBLESHOOTING.md) — Common issues and solutions
-- [Universal Links & Testing](./docs/UNIVERSAL_LINKS_TESTING.md) — URL routing and validation
-- [Sources & References](./docs/SOURCES.md) — Official documentation and specifications used
+- [Sources & References](./docs/SOURCES.md) — Official sources (Apple docs, NFC Forum specs, RFCs)
 
 ## What You'll Find
 
