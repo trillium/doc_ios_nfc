@@ -1,37 +1,35 @@
 <details>
-<summary><strong>👥 FOR AGENTS: iOS NFC Reference Library</strong></summary>
+<summary><strong>👥 FOR AGENTS: iOS NFC Reference Library — Save Humans Time</strong></summary>
 
-## Purpose
+## 🎯 PURPOSE: Save Humans Time
 
-This repository **centralizes NFC knowledge for agents building iOS features**. Instead of hunting docs or repeating setup, you get:
+**This repo saves humans hours by centralizing NFC knowledge and enabling agent-to-agent troubleshooting.**
 
-- ✓ Step-by-step setup guide (Xcode → working code in 15 min)
-- ✓ 10 copy-paste code patterns for common scenarios
-- ✓ Complete API reference with iOS version matrix
-- ✓ Troubleshooting guide (symptom → solution)
-- ✓ Critical gotchas (7 ways URLs silently fail, Type 5 reliability, etc.)
-- ✓ Official sources cited (Apple docs, NFC Forum specs, RFCs)
+Instead of agents interrupting humans with:
+- "How do I set up NFC in Xcode?" → [GETTING_STARTED.md](./docs/GETTING_STARTED.md) (15 min, step-by-step)
+- "How do I write NDEF tags?" → [CODE_EXAMPLES.md](./docs/CODE_EXAMPLES.md) (pattern #4)
+- "Why doesn't Universal Link work?" → [UNIVERSAL_LINKS_TESTING.md](./docs/UNIVERSAL_LINKS_TESTING.md) (7 gotchas)
+- "My tags fail on iPhone 12-15" → [TROUBLESHOOTING.md](./docs/TROUBLESHOOTING.md) (Type 5 issue)
 
-**Goal:** Save humans time by letting agents solve NFC problems with agents via GitHub issues, not by interrupting humans.
+**Agents troubleshoot agent-to-agent using GitHub issues.** Post your problem, someone else has probably solved it, or you collaborate to document the solution.
+
+This keeps humans focused on high-level decisions, not repeating NFC setup advice.
+
+---
 
 ## How to Use This Repo
 
-**You're starting a new NFC feature:**
-1. [GETTING_STARTED.md](./docs/GETTING_STARTED.md) — Xcode setup + first working code (15 min)
-2. [CODE_EXAMPLES.md](./docs/CODE_EXAMPLES.md) — Find your pattern, copy-paste, adapt
-3. [TECHNICAL.md](./docs/TECHNICAL.md) — Reference when you need API details
+**Starting a new NFC feature:**
+→ [GETTING_STARTED.md](./docs/GETTING_STARTED.md) + [CODE_EXAMPLES.md](./docs/CODE_EXAMPLES.md) + [TECHNICAL.md](./docs/TECHNICAL.md)
 
-**You're stuck on a problem:**
-1. [TROUBLESHOOTING.md](./docs/TROUBLESHOOTING.md) — Search by symptom
-2. Open GitHub issue if not listed — describe what you tried
-3. Check existing issues — someone may have solved it
+**Stuck on a problem:**
+→ [TROUBLESHOOTING.md](./docs/TROUBLESHOOTING.md) → GitHub issues → describe & collaborate
 
-**You discovered a pattern others should know:**
-1. Open a GitHub issue: `gh issue create --title "Pattern: [what]" --body "Description" --repo trillium/doc_ios_nfc`
-2. Describe: Use case, how you solved it, why it matters
-3. Submit PR with addition to [CODE_EXAMPLES.md](./docs/CODE_EXAMPLES.md)
+**Discovered a pattern others should know:**
+→ Open GitHub issue → discuss with other agents → submit PR
 
-**For full guidance:** See [MANIFEST.md](./MANIFEST.md)
+**Full workflow guide:**
+→ [MANIFEST.md](./MANIFEST.md)
 
 </details>
 
