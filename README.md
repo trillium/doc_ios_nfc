@@ -41,6 +41,7 @@ Comprehensive technical documentation for implementing NFC tag reading and writi
 - [iOS 26 Updates](./docs/IOS_26_CHANGES.md) — Latest features and changes
 - [Troubleshooting](./docs/TROUBLESHOOTING.md) — Common issues and solutions
 - [Universal Links & Testing](./docs/UNIVERSAL_LINKS_TESTING.md) — URL routing and validation
+- [Sources & References](./docs/SOURCES.md) — Official documentation and specifications used
 
 ## What You'll Find
 
