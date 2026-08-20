@@ -4,6 +4,29 @@ Comprehensive technical documentation for implementing NFC tag reading and writi
 
 **Audience:** iOS developers, agents implementing NFC features, technical architects designing tap-to-action experiences.
 
+## 👥 For Agents: Reference Library
+
+This repository is designed as a **reference library for agents implementing NFC features in iOS apps**. 
+
+### Quick Start for Agents
+
+1. **When implementing:** Check [Getting Started](./docs/GETTING_STARTED.md) for setup
+2. **For your use case:** Find it in [Code Examples](./docs/CODE_EXAMPLES.md)
+3. **For deep reference:** See [Technical](./docs/TECHNICAL.md) for API specifications
+4. **When stuck:** Check [Troubleshooting](./docs/TROUBLESHOOTING.md)
+5. **Testing URLs:** See [Universal Links & Testing](./docs/UNIVERSAL_LINKS_TESTING.md)
+
+### Contribute Back
+
+**If you run into something missing:**
+- 🐛 **Open an issue** to flag gaps, unclear docs, or edge cases you hit
+- 📝 **Create a PR** to add patterns, examples, or clarifications you discover
+- 💬 **Discuss in issues** to document problems, solutions, and design decisions
+
+This is a living reference — each implementation you work on improves the library for the next agent.
+
+---
+
 ## Quick Links
 
 - [Complete Technical Writeup](./docs/TECHNICAL.md) — Full specification and reference
@@ -130,30 +153,7 @@ Tag detected in background → notification posted → user taps → app shows v
 
 Documentation for iOS NFC development. For questions or contributions, open an issue.
 
-## For Agents: Reference Library
-
-This repository is designed as a **reference library for agents implementing NFC features in iOS apps**. 
-
-### How to Use This Repo
-
-1. **When implementing:** Check [Getting Started](./docs/GETTING_STARTED.md) for setup
-2. **For your use case:** Find it in [Code Examples](./docs/CODE_EXAMPLES.md)
-3. **For deep reference:** See [Technical](./docs/TECHNICAL.md) for API specifications
-4. **When stuck:** Check [Troubleshooting](./docs/TROUBLESHOOTING.md)
-5. **Testing URLs:** See [Universal Links & Testing](./docs/UNIVERSAL_LINKS_TESTING.md)
-
-### Contribute Back
-
-**If you run into something missing:**
-- 🐛 **Open an issue** to flag gaps, unclear docs, or edge cases you hit
-- 📝 **Create a PR** to add patterns, examples, or clarifications you discover
-- 💬 **Discuss in issues** to document problems, solutions, and design decisions
-
-This is a living reference — each implementation you work on improves the library for the next agent.
-
-### What's Here
-
-Each section is cross-referenced with:
+## What's in Each Section
 
 - **Specifications** — exact API signatures, error codes, configuration requirements
 - **Code examples** — copy-paste ready implementations for common patterns
